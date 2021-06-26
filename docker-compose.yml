@@ -1,0 +1,75 @@
+version: '3.7'
+
+services:
+    ubuntu1:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu1
+    ubuntu2:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu2
+    ubuntu3:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu3
+    ubuntu3:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu4
+    ubuntu4:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu4
+    ubuntu4:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu4
+    ubuntu5:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu5
+    ubuntu6:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu6
+    ubuntu7:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu7
+    ubuntu8:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu8
+    ubuntu9:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu9
+    ubuntu10:
+        build:
+            context: ./ubuntu
+            dockerfile: Dockerfile
+        tty: true
+        container_name: ubuntu10
