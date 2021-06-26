@@ -19,7 +19,7 @@ services:
             dockerfile: Dockerfile
         tty: true
         container_name: ubuntu3
-    ubuntu3:
+    ubuntu4:
         build:
             context: ./ubuntu
             dockerfile: Dockerfile
